@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+а{
+    text-decoration: none;
+    border: none;
+    color:#FFFCF7; 
+    text-decoration: none;
+    border: none;
+
+}
+u{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.block {
+  border:1px solid black;
+  width: 200px;
+  height: 300px;
+  display:inline-block;
+  margin:10px;
+}
+
+body{
+ /* font-family: "Philosopher", sans-serif; */
+  font-weight: 400;
+  font-style: normal;
+  color:#FFFCF7;
+
+} 
+
+.banner{
+background-image: url('/images/the\ main\ one.png');
+background-repeat: no-repeat; 
+background-position: center top; 
+padding: 20px 0 20px;
+font-size: 24px;
+line-height: 29px;
+
+}
+
+.container{
+    max-width: 1400px; /*1160px */
+    margin: 0px auto;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+
+.menu-item{
+    padding-right: 30px;
+    list-style-type: none;
+
+}
+.menu-link{
+   text-decoration: none;
+    border: none;
+    color: #FFFCF7
+
+}
+
+
+.hist {
+    background-color: #FFFCF7; 
+    padding:  50px 0 70px 0;
+ 
+}
+.headline{
+    text-align: center;
+    color: #FFFCF7;
+    margin-top:550px;
+    font-size: 32px;
+    line-height: 36px;
+ 
+
+}
+.hist-text {
+     font-size: 24px;
+    line-height: 29px;
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 0 40px; 
+    text-align: center; 
+    color: #8E120A;
+
+}
+
+.image-gallery {
+    margin-top: 0px; 
+}
+
+.gallery-wrapper {
+    display: flex; 
+    gap: 0; /* убираемвсе отступы*/
+    flex-wrap: nowrap; 
+    overflow: hidden;
+    max-width: 1400px; 
+    margin: 0 auto; 
+}
+
+
+.gallery-wrapper img {
+    display: block; 
+    width: calc(100% / 3); 
+    height: auto; 
+    flex-shrink: 0; 
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+    background-color: #8E120A;
+    padding: 30px 0; 
+    text-align: center; 
+    margin: 0;
+ 
+    /* прописать максимальную длинну 1400px */
+}
+.foter h2 {
+    
+    font-size: 36px; 
+    margin: 0px 0px 25px 0px; 
+} 
+
+.foter p {
+    font-size: 24px; 
+    line-height: 29px; 
+    margin-bottom: 10px; 
+} 

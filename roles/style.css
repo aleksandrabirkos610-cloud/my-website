@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+а{
+    text-decoration: none;
+    border: none;
+    color:#FFFCF7; 
+    text-decoration: none;
+
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.block {
+  border:1px solid black;
+  width: 200px;
+  height: 300px;
+  display:inline-block;
+  margin:10px;
+}
+
+body{
+ /* font-family: "Philosopher", sans-serif; */
+  font-weight: 400;
+  font-style: normal;
+  color:#FFFCF7;
+
+} 
+
+.banner{
+background-image: url('/images/roles.png');
+background-repeat: no-repeat; 
+background-position: center top; 
+padding: 20px 0 20px;
+font-size: 24px;
+line-height: 29px;
+height: 690px;
+}
+
+.container{
+    background-color: #FFFCF7;
+    max-width: 1400px; 
+    margin: 0 auto;
+    padding: 0px 40px; 
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+
+.menu-item{
+    padding-right: 30px;
+}
+.menu-link{
+   text-decoration: none;
+    border: none;
+    color: #FFFCF7
+
+}
+
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    background-color: #A1B1CB;
+    padding: 30px 0; 
+    text-align: center; 
+    margin: 0;
+ 
+}
+.foter h2 {
+    
+    font-size: 36px; 
+    margin: 0px 0px 25px 0px; 
+} 
+
+.foter p {
+    font-size: 24px; 
+    line-height: 29px; 
+    margin-bottom: 10px; 
+} 
+.hist {
+    padding: 20px;
+    background-color: #FFFCF7;
+    padding:  0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    color: #8E120A;
+}
+
+.hist .hist-item {
+    display: flex;
+    align-items: center; 
+    gap: 50px; 
+    border-bottom: 2px solid #A1B1CB;
+}
+
+.roles{
+  line-height: 1.6;
+  padding: 0px 80px;
+}
+
+.hist .hist-item img {
+    width: 300px;
+    height: auto;
+}
+
+@media (max-width: 800px) {
+    .hist .hist-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .hist .hist-item img {
+        width: 100%;
+    }
+}

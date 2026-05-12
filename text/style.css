@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+а{
+    text-decoration: none;
+    border: none;
+    color:#FFFCF7; 
+    text-decoration: none;
+
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.block {
+  border:1px solid black;
+  width: 200px;
+  height: 300px;
+  display:inline-block;
+  margin:10px;
+}
+
+body{
+ /* font-family: "Philosopher", sans-serif; */
+  font-weight: 400;
+  font-style: normal;
+  color:#FFFCF7;
+
+} 
+
+.banner{
+background-image: url('/images/tekst.png');
+background-repeat: no-repeat; 
+background-position: center top; 
+padding: 20px 0 20px;
+font-size: 24px;
+line-height: 29px;
+height: 690px;
+}
+
+.container{
+    max-width: 1400px; 
+    margin: 0 auto;
+    padding: 0px 40px;  
+    
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+
+.menu-item{
+    padding-right: 30px;
+    list-style-type: none;
+}
+.menu-link{
+    text-decoration: none;
+    border: none;
+    color: #FFFCF7
+
+}
+
+
+.hist {
+    padding: 20px 0 0 0;
+    font-size: 24px;
+    line-height: 29px; 
+    color: #8E120A;
+    margin-top: 0;
+    position: relative;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6{
+    /* max-width: 800px;  */
+    text-align: center;
+    line-height: 1.2; 
+    margin-bottom: 10px; 
+}
+
+.text1::after, .text2::after, .text3::after, .text4::after,.text5::after{
+ content: "";
+  display: block;
+  width: 40%;
+  height: 2px;
+  margin: 30px auto 0;
+  background-color: #8E120A;
+}
+
+
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    background-color: #8E120A;
+    padding: 30px 0; 
+    text-align: center; 
+    margin: 0;
+ 
+}
+.foter h2 {
+    
+    font-size: 36px; 
+    margin: 0px 0px 25px 0px; 
+} 
+
+.foter p {
+    font-size: 24px; 
+    line-height: 29px; 
+    margin-bottom: 10px; 
+} 
+
+.img_hist{
+    position: absolute;
+    top: 130px;
+    right: 170px;
+    width: 260px;
+    height: 220px;
+}
+
+.img_hist2{
+    position: absolute;
+    top: 320px;
+    left: 60px;
+    width: 430px;
+    height: 330px;
+}
+
+.img_hist3{
+    position: absolute;
+    top: 80px;
+    right: 120px;
+    width: 300px;
+    height: 340px;
+}
+
+.img_hist4{
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    width: 280px;
+    height: 260px;
+}
+
+.img_hist5{
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    width: 380px;
+    height: 410px;
+}
+.img_hist6{
+    position: absolute;
+    top: 360px;
+    right: 50px;
+    width: 300px;
+    height: 190px;
+}
